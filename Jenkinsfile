@@ -1,6 +1,7 @@
 @Library ('MY-SHared-Library') _
 pipeline {
 agent any
+tools {nodejs "node"}
   stages {
     stage('build'){
       steps{
