@@ -13,7 +13,7 @@ agent any
     stage('deploy'){
       steps {
         script {
-         deployDemo.call()
+         msbuild.call()
         }
       }
     } 
