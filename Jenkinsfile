@@ -11,7 +11,11 @@ agent any
       
     }
     stage('deploy'){
-      
+      steps{
+        script{
+          deployDemo()
+        }
+      }
     } 
   }
 }
