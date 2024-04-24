@@ -12,7 +12,7 @@ agent any
     // }
     stage('deploy'){
       steps {
-         deployDemo()
+         deployDemo.call()
         
       }
     } 
