@@ -2,14 +2,14 @@
 pipeline {
 agent any
   stages {
-    // stage('build'){
-    //   steps{
-    //     script {
-    //       build()
-    //     }
-    //   }
+    stage('build'){
+      steps{
+        script {
+          build.java()
+        }
+      }
       
-    // }
+    }
     stage('deploy'){
       steps {
         script {
