@@ -1,4 +1,4 @@
-@Library ('MY-SHared-Library')
+@Library ('MY-SHared-Library')_
 pipeline {
 agent any
   stages {
