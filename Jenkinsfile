@@ -4,16 +4,16 @@ agent any
   stages {
     stage('build'){
       steps{
-        script{
-          build()
+        script {
+          build
         }
       }
       
     }
     stage('deploy'){
       steps{
-        script{
-          deployDemo()
+        script {
+          deployDemo
         }
       }
     } 
