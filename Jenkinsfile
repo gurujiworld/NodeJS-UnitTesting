@@ -5,7 +5,7 @@ agent any
     stage('build'){
       steps{
         script {
-          build
+          build()
         }
       }
       
@@ -13,7 +13,7 @@ agent any
     stage('deploy'){
       steps{
         script {
-          deployDemo
+          deployDemo()
         }
       }
     } 
